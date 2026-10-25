@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+
+    --light-indigo-50: #f0f4ff;
+    --light-indigo-100: #d9e4ff;
+    --light-indigo-200: #b3c9ff;
+    --light-indigo-300: #8cb0ff;
+    --light-indigo-400: #6695ff;
+    --light-indigo-500: #3d7aff;
+    --light-indigo-600: #2e5ecb;
+    --light-indigo-700: #1f42a7;
+    --light-indigo-800: #102d83;
+    --light-indigo-900: #061f5f;
+
+    --dark-slate-50: #f8f9fa;
+    --dark-slate-100: #e9ecef; 
+    --dark-slate-200: #dee2e6;
+    --dark-slate-300: #ced4da;
+    --dark-slate-400: #adb5bd;
+    --dark-slate-500: #6c757d;
+    --dark-slate-600: #495057;
+    --dark-slate-700: #343a40;
+    --dark-slate-800: #212529;
+    --dark-slate-900: #121416;
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2A2A2A;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F97316;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1A1A1A;
+}
+
+::selection {
+    background-color: #F97316;
+    color: white;
+}
+
+*:focus-visible {
+    outline: 2px solid #F97316;
+    outline-offset: 2px;
+}
