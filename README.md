@@ -221,18 +221,12 @@ VITE_API_URL=http://localhost:5000/api
 * AI-powered CRM Insights
 * Multi-language Support
 
----
-
-
-# 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
 # 👨‍💻 Author
 
-**Rahul Hemla**
+**Akash Sahu**
 
 * Full Stack MERN Developer
 * Passionate about building scalable web applications
